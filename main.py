@@ -15,7 +15,7 @@ theme = {
 }
 
 # Load and prepare data
-df = pd.read_excel(r"C:\Users\ashis\OneDrive\Documents\NIT Goa\Consolidated_SGPA_CGPA_Report.xlsx", sheet_name="Clean")
+df = pd.read_excel(r"Consolidated_SGPA_CGPA_Report.xlsx", sheet_name="Clean")
 df.columns = df.columns.str.replace(":", "")
 df.columns = df.columns.str.lower()
 df = df.sort_values(by='reg.no')
