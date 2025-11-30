@@ -5,7 +5,7 @@ import plotly.express as px
 # import numpy as np
 
 # Initialize the app
-app = Dash(__name__)
+app = Dash(__name__, title="Student Performance Dashboard")
 
 server = app.server
 
